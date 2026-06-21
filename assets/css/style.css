@@ -186,12 +186,14 @@ img { max-width: 100%; height: auto; display: block; }
 .day-card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.3rem;
+  aspect-ratio: 1 / 1;
   background: var(--white);
   border: 2px solid var(--lavender);
   border-radius: var(--radius);
   box-shadow: var(--card-shadow);
-  padding: 1.4rem 1.2rem;
+  padding: 1rem;
   text-decoration: none;
   color: var(--text-dark);
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
