@@ -1,0 +1,16 @@
+title: "Music Camps at Wallowa Lake"
+description: "Music History Class — Resources for Students"
+baseurl: "/wallowalake"
+url: "https://purple4reina.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - "_templates/"
+  - ".claude/"

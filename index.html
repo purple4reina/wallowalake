@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Home"
+---
+
+<div class="home-intro">
+  <h1>Music History at Wallowa Lake</h1>
+  <p>
+    Welcome! Here you'll find recordings, links, and key ideas from music history class
+    each summer at Music Camps at Wallowa Lake. Explore by year below.
+  </p>
+</div>
+
+<section class="years-section">
+  <h2>Class Notes by Year</h2>
+  <div class="years-grid">
+    {% assign year_pages = site.pages | where: "layout", "year" | sort: "year" | reverse %}
+    {% for yp in year_pages %}
+    <a class="year-card" href="{{ yp.url | relative_url }}">
+      <span class="year-num">{{ yp.year }}</span>
+      <span class="year-card-label">Music History</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>

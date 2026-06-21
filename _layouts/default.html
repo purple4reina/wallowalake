@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% if page.url contains '/about' %}
+  <script defer src="{{ '/assets/js/bio.js' | relative_url }}"></script>
+  {% endif %}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="{{ '/' | relative_url }}">🎶 {{ site.title }}</a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about' | relative_url }}">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero-banner" role="img" aria-label="Wallowa Lake, Oregon, seen from Mount Howard">
+    <div class="hero-overlay">
+      <p class="hero-tagline">Music History Class</p>
+    </div>
+  </div>
+
+  <main class="main-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    {% include credits.html %}
+    <p class="footer-copy">&copy; {{ 'now' | date: "%Y" }} Rey Abolofia &mdash; Music Camps at Wallowa Lake</p>
+  </footer>
+
+</body>
+</html>

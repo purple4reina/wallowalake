@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% assign current_year = page.year %}
+{% assign days = site.pages | where_exp: "item", "item.year == current_year" | where: "layout", "day" | sort: "order" %}
+{% assign days_size = days | size %}
+
+{% for d in days %}
+  {% if d.url == page.url %}
+    {% assign curr_i = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% if curr_i > 0 %}
+  {% assign prev_i = curr_i | minus: 1 %}
+  {% assign prev_day = days[prev_i] %}
+{% endif %}
+{% assign next_i = curr_i | plus: 1 %}
+{% if next_i < days_size %}
+  {% assign next_day = days[next_i] %}
+{% endif %}
+
+<div class="day-page">
+  <div class="day-page-header">
+    {% assign year_path = '/' | append: page.year | append: '/' %}
+    <a class="back-to-year" href="{{ year_path | relative_url }}">← {{ page.year }}</a>
+    <span class="day-badge">{{ page.day_name }}</span>
+  </div>
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="day-body">
+    {{ content }}
+  </div>
+
+  <nav class="day-nav">
+    {% if prev_day %}
+    <a class="day-nav-link prev" href="{{ prev_day.url | relative_url }}">
+      ← {{ prev_day.day_name }}: {{ prev_day.title }}
+    </a>
+    {% else %}
+    <span></span>
+    {% endif %}
+
+    {% if next_day %}
+    <a class="day-nav-link next" href="{{ next_day.url | relative_url }}">
+      {{ next_day.day_name }}: {{ next_day.title }} →
+    </a>
+    {% endif %}
+  </nav>
+</div>

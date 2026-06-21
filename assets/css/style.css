@@ -1,0 +1,401 @@
+/* ============================================================
+   Wallowa Lake Music History — Stylesheet
+   Purple palette, large friendly type for young students
+   ============================================================ */
+
+:root {
+  --purple-deep:   #3b0764;
+  --purple-mid:    #6d28d9;
+  --purple-light:  #8b5cf6;
+  --purple-btn:    #7c3aed;
+  --purple-btn-hv: #5b21b6;
+  --lavender:      #ddd6fe;
+  --lavender-pale: #f5f3ff;
+  --white:         #ffffff;
+  --text-dark:     #1e1b4b;
+  --text-body:     #2e1065;
+  --card-shadow:   0 3px 10px rgba(59,7,100,0.15);
+  --radius:        12px;
+  --radius-sm:     8px;
+}
+
+/* ---- Reset ---- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 18px; scroll-behavior: smooth; }
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--lavender-pale);
+  color: var(--text-dark);
+  line-height: 1.7;
+}
+a { color: var(--purple-mid); text-decoration: underline; }
+a:hover { color: var(--purple-btn-hv); }
+img { max-width: 100%; height: auto; display: block; }
+
+/* ---- Header ---- */
+.site-header {
+  background: var(--purple-deep);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.site-title {
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: var(--white);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.site-title:hover { color: var(--lavender); }
+.site-nav { display: flex; gap: 1.25rem; }
+.site-nav a {
+  color: var(--lavender);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.site-nav a:hover { color: var(--white); }
+
+/* ---- Hero Banner ---- */
+.hero-banner {
+  width: 100%;
+  height: 260px;
+  background: url('../images/wallowa-lake-banner.jpg') center 60% / cover no-repeat;
+  position: relative;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(59,7,100,0.35) 0%, rgba(59,7,100,0.6) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding: 1.5rem 2rem;
+}
+.hero-tagline {
+  color: var(--lavender);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* ---- Main content ---- */
+.main-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+/* ---- Home page ---- */
+.home-intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.home-intro h1 {
+  font-size: 2rem;
+  color: var(--purple-deep);
+  margin-bottom: 0.6rem;
+}
+.home-intro p {
+  font-size: 1.05rem;
+  color: var(--text-body);
+  max-width: 600px;
+  margin: 0 auto;
+}
+.years-section h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--purple-mid);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1.25rem;
+}
+.years-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+.year-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  border: 2px solid var(--lavender);
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+  padding: 2rem 2.5rem;
+  text-decoration: none;
+  color: var(--text-dark);
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  min-width: 140px;
+}
+.year-card:hover {
+  border-color: var(--purple-mid);
+  box-shadow: 0 6px 20px rgba(109,40,217,0.2);
+  transform: translateY(-3px);
+  color: var(--text-dark);
+  text-decoration: none;
+}
+.year-num {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--purple-deep);
+}
+.year-card-label {
+  font-size: 0.8rem;
+  color: var(--purple-mid);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 0.25rem;
+}
+
+/* ---- Year overview page ---- */
+.year-header {
+  margin-bottom: 2rem;
+}
+.year-header h1 {
+  font-size: 1.8rem;
+  color: var(--purple-deep);
+  margin-bottom: 0.5rem;
+}
+.year-intro {
+  font-size: 1rem;
+  color: var(--text-body);
+}
+.day-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.1rem;
+}
+.day-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  background: var(--white);
+  border: 2px solid var(--lavender);
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+  padding: 1.4rem 1.2rem;
+  text-decoration: none;
+  color: var(--text-dark);
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+.day-card:hover {
+  border-color: var(--purple-mid);
+  box-shadow: 0 6px 20px rgba(109,40,217,0.2);
+  transform: translateY(-3px);
+  text-decoration: none;
+  color: var(--text-dark);
+}
+.day-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--purple-light);
+  font-weight: bold;
+}
+.day-title {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: var(--purple-deep);
+  line-height: 1.3;
+}
+
+/* ---- Day page ---- */
+.day-page { max-width: 760px; margin: 0 auto; }
+
+.day-page-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.back-to-year {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  color: var(--purple-mid);
+  text-decoration: none;
+}
+.back-to-year:hover { color: var(--purple-btn-hv); text-decoration: underline; }
+.day-badge {
+  background: var(--purple-deep);
+  color: var(--lavender);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+}
+
+.day-page h1 {
+  font-size: 1.8rem;
+  color: var(--purple-deep);
+  margin-bottom: 1.25rem;
+  line-height: 1.25;
+}
+
+.day-body { font-size: 1rem; }
+.day-body p  { margin-bottom: 1rem; }
+.day-body h2 {
+  font-size: 1.15rem;
+  color: var(--purple-mid);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--lavender);
+}
+.day-body ul, .day-body ol {
+  margin: 0.5rem 0 1rem 1.5rem;
+}
+.day-body li { margin-bottom: 0.4rem; }
+
+/* Recordings list */
+.day-body .recordings {
+  list-style: none;
+  margin: 0.5rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.day-body .recordings li {
+  background: var(--white);
+  border-left: 4px solid var(--purple-mid);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 0.6rem 0.9rem;
+  box-shadow: 0 1px 4px rgba(59,7,100,0.08);
+}
+.day-body .recordings li a {
+  font-weight: bold;
+  color: var(--purple-mid);
+}
+.day-body .recordings li .rec-note {
+  display: block;
+  font-size: 0.88rem;
+  color: var(--text-body);
+  font-style: italic;
+  margin-top: 0.15rem;
+}
+
+/* Info box */
+.info-box {
+  background: var(--lavender);
+  border-radius: var(--radius-sm);
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  font-size: 0.95rem;
+}
+.info-box strong { color: var(--purple-deep); }
+
+/* Homework callout */
+.homework {
+  background: var(--white);
+  border: 2px solid var(--purple-mid);
+  border-radius: var(--radius-sm);
+  padding: 0.9rem 1.2rem;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+.homework::before {
+  content: "✏️ Homework: ";
+  font-weight: bold;
+  color: var(--purple-deep);
+}
+
+/* Day prev/next nav */
+.day-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.day-nav-link {
+  background: var(--purple-btn);
+  color: var(--white);
+  text-decoration: none;
+  padding: 0.6rem 1.1rem;
+  border-radius: var(--radius-sm);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+  max-width: 48%;
+  line-height: 1.3;
+}
+.day-nav-link:hover {
+  background: var(--purple-btn-hv);
+  color: var(--white);
+  text-decoration: none;
+}
+.day-nav-link.next { text-align: right; margin-left: auto; }
+
+/* ---- About page ---- */
+.about-page h1 {
+  font-size: 1.8rem;
+  color: var(--purple-deep);
+  margin-bottom: 0.3rem;
+}
+.about-tagline {
+  color: var(--purple-mid);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+#bio { font-size: 1rem; }
+#bio p { margin-bottom: 0.9rem; }
+#bio h1, #bio h2, #bio h3 {
+  color: var(--purple-deep);
+  margin: 1.5rem 0 0.6rem;
+}
+.bio-fallback {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-body);
+}
+
+/* ---- Footer ---- */
+.site-footer {
+  background: var(--purple-deep);
+  color: var(--lavender);
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.82rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8;
+}
+.site-footer a { color: var(--lavender); }
+.site-footer a:hover { color: var(--white); }
+.photo-credit { margin-bottom: 0.25rem; }
+.footer-copy { opacity: 0.7; }
+
+/* ---- Images licence page ---- */
+.licenses-page h1 { color: var(--purple-deep); font-size: 1.5rem; margin-bottom: 1rem; }
+
+/* ---- Responsive ---- */
+@media (max-width: 600px) {
+  html { font-size: 16px; }
+  .hero-banner { height: 180px; }
+  .day-grid { grid-template-columns: 1fr 1fr; }
+  .day-nav-link { max-width: 100%; }
+}

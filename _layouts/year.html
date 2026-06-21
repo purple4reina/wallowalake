@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="year-header">
+  <h1>{{ page.year }} — Music History Week</h1>
+  {% if content and content != "" %}
+  <div class="year-intro">{{ content }}</div>
+  {% endif %}
+</div>
+
+{% assign current_year = page.year %}
+{% assign days = site.pages | where_exp: "item", "item.year == current_year" | where: "layout", "day" | sort: "order" %}
+
+<div class="day-grid">
+  {% for day in days %}
+  <a class="day-card" href="{{ day.url | relative_url }}">
+    <span class="day-name">{{ day.day_name }}</span>
+    <span class="day-title">{{ day.title }}</span>
+  </a>
+  {% endfor %}
+</div>
