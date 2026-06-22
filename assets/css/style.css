@@ -124,6 +124,22 @@ img { max-width: 100%; height: auto; display: block; }
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 1.25rem;
 }
+
+/* ---- Handout callout (home) ---- */
+.handout-cta { text-align: center; margin-bottom: 2.5rem; }
+.handout-btn {
+  display: inline-block;
+  background: var(--purple-btn);
+  color: var(--white);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  padding: 0.7rem 1.3rem;
+  border-radius: var(--radius-sm);
+  transition: background 0.2s;
+}
+.handout-btn:hover { background: var(--purple-btn-hv); color: var(--white); }
 .years-grid {
   display: flex;
   flex-wrap: wrap;
