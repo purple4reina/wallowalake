@@ -13,3 +13,4 @@ gem "csv"
 gem "base64"
 gem "bigdecimal"
 gem "logger"
+gem "webrick" # removed from Ruby's stdlib in 3.0; needed by `jekyll serve`
