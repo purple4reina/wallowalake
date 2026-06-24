@@ -348,7 +348,7 @@ img { max-width: 100%; height: auto; display: block; }
 .day-body figure.artwork img {
   width: 100%;
   border-radius: var(--radius-sm);
-  box-shadow: 0 2px 10px rgba(59,7,100,0.18);
+  box-shadow: 0 4px 16px rgba(59,7,100,0.45);
 }
 .day-body figure.artwork figcaption {
   font-size: 0.82rem;
