@@ -14,3 +14,18 @@ exclude:
   - vendor/
   - "_templates/"
   - ".claude/"
+
+# Datadog Real User Monitoring (RUM).
+# Fill in application_id + client_token from your RUM application in Datadog.
+# Until both are set, the snippet renders nothing. It also only loads in
+# production (JEKYLL_ENV=production, which GitHub Pages sets automatically).
+datadog:
+  application_id: "7bd81a95-503c-4295-bf1f-71c771135d60"  # RUM Application ID (a UUID)
+  client_token: "pub6082707c1d11b01f2044e1c46b7449f3"     # RUM Client Token (starts with "pub")
+  site: "datadoghq.com"       # your Datadog site: datadoghq.com, us3., us5., datadoghq.eu, ap1.datadoghq.com
+  cdn_region: "us1"           # CDN segment matching your site: us1, us3, us5, eu1, ap1
+  service: "wallowalake"
+  env: "production"
+  version: "1.0.0"
+  session_sample_rate: 100        # % of sessions tracked
+  session_replay_sample_rate: 20  # % of those that also record Session Replay (0 to disable)

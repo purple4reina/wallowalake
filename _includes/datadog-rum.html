@@ -1,0 +1,35 @@
+{%- comment -%}
+  Datadog Real User Monitoring (RUM).
+  Loads ONLY in production (JEKYLL_ENV=production, which GitHub Pages sets)
+  AND only once application_id + client_token are filled in _config.yml.
+  All values come from the `datadog:` block in _config.yml.
+{%- endcomment -%}
+{%- assign dd = site.datadog -%}
+{%- assign dd_token = dd.client_token | default: "" -%}
+{%- assign dd_app = dd.application_id | default: "" -%}
+{%- if dd_token != "" and dd_app != "" and jekyll.environment == "production" -%}
+<script>
+  (function(h,o,u,n,d) {
+     h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+     d=o.createElement(u);d.async=1;d.src=n;d.crossOrigin=''
+     n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+  })(window,document,'script','https://www.datadoghq-browser-agent.com/{{ dd.cdn_region | default: "us1" }}/v7/datadog-rum.js','DD_RUM')
+
+  window.DD_RUM.onReady(function() {
+    window.DD_RUM.init({
+      clientToken: {{ dd_token | jsonify }},
+      applicationId: {{ dd_app | jsonify }},
+      site: {{ dd.site | default: "datadoghq.com" | jsonify }},
+      service: {{ dd.service | default: "wallowalake" | jsonify }},
+      env: {{ dd.env | default: "production" | jsonify }},
+      version: {{ dd.version | default: "1.0.0" | jsonify }},
+      sessionSampleRate: {{ dd.session_sample_rate | default: 100 }},
+      sessionReplaySampleRate: {{ dd.session_replay_sample_rate | default: 20 }},
+      defaultPrivacyLevel: 'mask-user-input',
+      trackUserInteractions: true,
+      trackResources: true,
+      trackLongTasks: true,
+    });
+  });
+</script>
+{%- endif -%}
