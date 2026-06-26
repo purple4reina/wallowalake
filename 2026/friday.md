@@ -6,118 +6,139 @@ year: 2026
 order: 5
 ---
 
-Music doesn't always follow the rules.
-Sometimes the strangest pieces are the most memorable — and the most fun.
+All week we learned the "rules." Today the composers break them — on purpose, and for fun.
+Some of the strangest music ever made is also the most memorable.
 
-## Visually Weird Scores
+<figure class="artwork artwork-solo">
+  <img src="{{ '/assets/images/friday-chantilly-heart.jpg' | relative_url }}"
+       alt="A medieval music manuscript written in the shape of a heart, in red and black ink">
+  <figcaption><strong>Baude Cordier, <em>Belle, bonne, sage</em> (c. 1400).</strong> A love song written in the shape of a heart, from the Chantilly Codex — one of the most visually inventive manuscripts ever made. Public domain, via Wikimedia Commons.</figcaption>
+</figure>
 
-<ul class="recordings">
-  <li>
-    <a href="https://www.youtube.com/watch?v=X2aDXFDSPSw" target="_blank" rel="noopener">
-      Chantilly Codex — Baude Cordier, "Belle, Bonne, Sage"
-    </a>
-    <span class="rec-note">Written in the shape of a heart, in red and black ink, around 1400. The Chantilly Codex contains some of the most visually inventive music manuscripts ever made — some are written in circles.</span>
-  </li>
-</ul>
+## Key Ideas
 
-## Strange Instruments
+- **Notation can be art.** The Chantilly Codex writes a love song as a *heart* and a canon as a *circle*. It's also a window into old notation — four-line staves, no bar lines, square "neume" notes, hand-painted on parchment.
+- **Forgotten instruments.** The serpent, sackbut, rackett, and ophicleide are the weird-looking ancestors of today's brass and woodwinds (serpent → ophicleide → tuba).
+- **Adolphe Sax**, the Belgian inventor of the saxophone (1846) and the saxhorn family, also built true oddities — like a seven-belled trombone and a six-piston trombone.
+- **Music as a puzzle.** Bach's *Musical Offering* (1747) hides "riddle canons," a "crab canon" that runs forwards and backwards at once, and an "endless rising canon" that seems to climb forever.
+- **Trolling the audience.** Haydn's *Farewell* Symphony sends the players off the stage one by one; his *Surprise* Symphony hides a sudden crash to wake the dozers.
+- **Ordinary instruments, strange sounds.** John Cage's *prepared piano* (objects on the strings) and George Crumb's bowed, whispered, spiral-notated scores.
+- **Is it even music?** Ligeti's 100 ticking metronomes and Cage's silent *4′33″* push the question to the edge.
+- **Deliberately bad — on purpose.** Mozart's *A Musical Joke*, Saint-Saëns's *Carnival of the Animals*, PDQ Bach, and the "world's worst orchestra," the Portsmouth Sinfonia.
 
-<ul class="recordings">
-  <li>
-    <a href="https://www.youtube.com/watch?v=Ag9m0KLAM-s" target="_blank" rel="noopener">
-      The Serpent
-    </a>
-    <span class="rec-note">A bass wind instrument made of wood in a winding snake shape. Used in churches and military bands from the 1600s to the 1800s.</span>
-  </li>
-  <li>
-    <a href="https://www.youtube.com/watch?v=q9JFXYvmSUQ" target="_blank" rel="noopener">
-      The Ophicleide
-    </a>
-    <span class="rec-note">A keyed brass instrument that replaced the serpent — then got replaced itself by the tuba. Berlioz and Mendelssohn both wrote parts for it.</span>
-  </li>
-  <li>
-    <a href="https://www.youtube.com/watch?v=zMR8a_t5GYM" target="_blank" rel="noopener">
-      The Rackett
-    </a>
-    <span class="rec-note">A Renaissance reed instrument — cylindrical, compact, and very buzzy. It folds a very long bore into a very small tube.</span>
-  </li>
-</ul>
+<div class="art-row">
+  <figure class="artwork">
+    <img src="{{ '/assets/images/friday-chantilly-circle.jpg' | relative_url }}"
+         alt="A medieval canon notated in a circle">
+    <figcaption><strong>Cordier, <em>Tout par compas</em>.</strong> A canon written as a circle — the music literally goes around. Public domain, via Wikimedia Commons.</figcaption>
+  </figure>
+  <figure class="artwork">
+    <img src="{{ '/assets/images/friday-medieval-notation.jpg' | relative_url }}"
+         alt="A page of medieval chant on a four-line staff with square neume notes">
+    <figcaption><strong>Medieval chant notation.</strong> Four-line staff, square neumes, no bar lines. Public domain, via Wikimedia Commons.</figcaption>
+  </figure>
+</div>
 
-## Compositional Puzzles
+<div class="art-row">
+  <figure class="artwork">
+    <img src="{{ '/assets/images/friday-serpent.jpg' | relative_url }}"
+         alt="A serpent: a long bass wind instrument curved in a snake shape">
+    <figcaption><strong>The serpent.</strong> Wood and leather, buzzed like brass (Italian, late 1700s). Photo by Paolo Terzi, CC BY-SA 3.0, via Wikimedia Commons (Museo Civico di Modena).</figcaption>
+  </figure>
+  <figure class="artwork">
+    <img src="{{ '/assets/images/friday-ophicleide.jpg' | relative_url }}"
+         alt="An ophicleide: a keyed brass bass instrument">
+    <figcaption><strong>The ophicleide.</strong> The serpent's keyed successor — and the tuba's predecessor. The Metropolitan Museum of Art (CC0), via Wikimedia Commons.</figcaption>
+  </figure>
+</div>
 
-<ul class="recordings">
-  <li>
-    <a href="https://www.youtube.com/watch?v=xUHQ2ybTejU" target="_blank" rel="noopener">
-      Bach — Crab Canon (<em>Musical Offering</em>)
-    </a>
-    <span class="rec-note">A canon that plays the same melody forwards and backwards at the same time. "Crab" because it moves in both directions like a crab. This video makes the structure visible.</span>
-  </li>
-  <li>
-    <a href="https://www.youtube.com/watch?v=M2DdxzUq9cg" target="_blank" rel="noopener">
-      Mozart — Duo for Two Violins (Table Music)
-    </a>
-    <span class="rec-note">Place a single sheet of music on a table; one violinist reads it right-side up, the other reads it upside-down from the other side. Both parts fit together perfectly. ⚑ Link to verify.</span>
-  </li>
-</ul>
+<div class="art-row">
+  <figure class="artwork">
+    <img src="{{ '/assets/images/friday-rackett.jpg' | relative_url }}"
+         alt="A historical engraving of racketts, compact Renaissance reed instruments">
+    <figcaption><strong>Racketts</strong> — the "sausage bassoon." From Praetorius, <em>Syntagma Musicum</em> (1619). Public domain, via Wikimedia Commons.</figcaption>
+  </figure>
+  <figure class="artwork">
+    <img src="{{ '/assets/images/friday-sackbut.jpg' | relative_url }}"
+         alt="Sackbuts: early Renaissance trombones on display">
+    <figcaption><strong>Sackbuts</strong> — the Renaissance trombone. Photo by Sguastevi, CC BY-SA 3.0, via Wikimedia Commons (Museu de la Música, Barcelona).</figcaption>
+  </figure>
+</div>
 
-## Trolling the Audience
-
-<ul class="recordings">
-  <li>
-    <a href="https://www.youtube.com/watch?v=H2oqRbyVQ8g" target="_blank" rel="noopener">
-      Haydn — Symphony No. 45 "Farewell"
-    </a>
-    <span class="rec-note">Haydn's musicians were desperate to leave the Esterházy estate and go home. So he wrote a symphony where the players finish their parts one by one, blow out their candles, and leave the stage — until only two violinists remain. The prince got the message.</span>
-  </li>
-  <li>
-    <a href="https://www.youtube.com/watch?v=90MT3X5GTEM" target="_blank" rel="noopener">
-      Haydn — Symphony No. 94 "Surprise"
-    </a>
-    <span class="rec-note">A loud crash in the middle of a very quiet, gentle melody — just to wake up any audience members who had fallen asleep.</span>
-  </li>
-  <li>
-    <a href="https://www.youtube.com/watch?v=WhiJIi0mYxk" target="_blank" rel="noopener">
-      Saint-Saëns — <em>Carnival of the Animals</em>: "The Pianists"
-    </a>
-    <span class="rec-note">Saint-Saëns refused to publish this piece during his lifetime — he thought it was too silly and would damage his reputation. "The Pianists" movement mocks bad piano students with endless, clunky scales. He was right that it was silly. He was wrong to hide it.</span>
-  </li>
-</ul>
-
-## Stretching the Limits of Music
-
-<ul class="recordings">
-  <li>
-    <a href="https://www.youtube.com/watch?v=JTEFKFiXSx4" target="_blank" rel="noopener">
-      John Cage — <em>4′33″</em>
-    </a>
-    <span class="rec-note">Four minutes and thirty-three seconds of a pianist not playing. The "music" is every sound in the room — shuffling, coughing, the wind outside. Is it music? Is it a joke? Both?</span>
-  </li>
-  <li>
-    <a href="https://www.youtube.com/watch?v=QCp7bL-AWvw" target="_blank" rel="noopener">
-      Ligeti — <em>Poème Symphonique</em> for 100 Metronomes
-    </a>
-    <span class="rec-note">100 mechanical metronomes, all started at different speeds. They gradually fall out of sync, then slowly the faster ones stop first, until only one is left ticking.</span>
-  </li>
-</ul>
-
-## Musical Humor
-
-<ul class="recordings">
-  <li>
-    <a href="https://www.youtube.com/watch?v=DNmEflPMApg" target="_blank" rel="noopener">
-      Gerard Hoffnung — Oxford Union Speech (1958)
-    </a>
-    <span class="rec-note">British cartoonist and musician Gerard Hoffnung organized concerts of deliberate musical chaos. This speech is one of the funniest ever given about music.</span>
-  </li>
-  <li>
-    <a href="https://www.youtube.com/watch?v=3tMRbUyXJFs" target="_blank" rel="noopener">
-      PDQ Bach — "Howdy Symphony"
-    </a>
-    <span class="rec-note">Peter Schickele invented a fictional "worst" son of J.S. Bach and performed his terrible music with a straight face for decades. Search "PDQ Bach" on YouTube for more.</span>
-  </li>
-</ul>
+<div class="art-row">
+  <figure class="artwork">
+    <img src="{{ '/assets/images/friday-sax-six-piston.jpg' | relative_url }}"
+         alt="Adolphe Sax's six-piston trombone">
+    <figcaption><strong>Sax's six-piston trombone.</strong> Six independent valves in place of a slide. Photo by Rama, CC BY-SA 3.0 FR, via Wikimedia Commons.</figcaption>
+  </figure>
+  <figure class="artwork">
+    <img src="{{ '/assets/images/friday-sax-trombone.jpg' | relative_url }}"
+         alt="Adolphe Sax's experimental trombone with seven bells">
+    <figcaption><strong>Sax's seven-belled trombone.</strong> One slide feeding seven bells, for echo effects. Photo by Robin Davis, CC BY-SA 3.0, via Wikimedia Commons (Musical Instrument Museum).</figcaption>
+  </figure>
+</div>
 
 <div class="info-box">
-  <strong>⚑ Note for instructor:</strong> Links marked "to verify" were added to match the piece description —
-  please confirm they show the right recording before sharing with students.
+  <strong>Try it — 4′33″:</strong> Sit in total silence for a slow count of thirty and write down every sound you hear — a cough, a chair, the wind, your own breathing. That list <em>is</em> John Cage's most famous piece. So… is it music?
 </div>
+
+## Listen & Watch
+
+<ul class="recordings">
+  <li>
+    <a href="https://youtu.be/ql25jqpsNZ4" target="_blank" rel="noopener">
+      The Rackett
+    </a>
+    <span class="rec-note">Hear the "sausage bassoon" — a very long bore folded into a tiny tube, with a deep buzz.</span>
+  </li>
+  <li>
+    <a href="https://youtu.be/GG5pbPcXnC0" target="_blank" rel="noopener">
+      The Ophicleide — a quartet plays Mendelssohn & Telemann
+    </a>
+    <span class="rec-note">The keyed brass bass that sat between the serpent and the tuba.</span>
+  </li>
+  <li>
+    <a href="https://www.youtube.com/watch?v=jRHoKZRYBlY" target="_blank" rel="noopener">
+      John Cage — Sonata V, from <em>Sonatas and Interludes</em> (prepared piano)
+    </a>
+    <span class="rec-note">Every "wrong" clang and thud is an object Cage placed on a string. One piano, a whole percussion section.</span>
+  </li>
+  <li>
+    <a href="https://www.youtube.com/watch?v=11o8nHk-l_o" target="_blank" rel="noopener">
+      George Crumb — <em>Black Angels</em>
+    </a>
+    <span class="rec-note">Players bow the strings, whisper, and shout. (Listen near the beginning, 6:20, and 12:30.)</span>
+  </li>
+  <li>
+    <a href="https://youtu.be/wFPoRmsiFzc?t=279" target="_blank" rel="noopener">
+      Mozart — <em>A Musical Joke</em>, K. 522
+    </a>
+    <span class="rec-note">Mozart writing badly <em>on purpose</em> — listen for the floundering horn and the train-wreck ending in several keys at once. (Starts ~4:39.)</span>
+  </li>
+  <li>
+    <a href="https://youtu.be/ZkyI8bwj_t4?t=797" target="_blank" rel="noopener">
+      Saint-Saëns — <em>Carnival of the Animals</em>: "Pianists"
+    </a>
+    <span class="rec-note">The movement that mocks students grinding through their scales. (Starts ~13:17.)</span>
+  </li>
+  <li>
+    <a href="https://www.youtube.com/watch?v=f0vHpeUO5mw" target="_blank" rel="noopener">
+      PDQ Bach — "New Horizons in Music Appreciation" (Beethoven's 5th)
+    </a>
+    <span class="rec-note">A deadpan <em>sportscast</em> over Beethoven's Fifth — naming the themes as they fly by, exactly the listening game we've played all week.</span>
+  </li>
+  <li>
+    <a href="https://www.youtube.com/watch?v=e-QFj59PON4" target="_blank" rel="noopener">
+      Strauss — <em>Also sprach Zarathustra</em> opening (the "2001" fanfare)
+    </a>
+    <span class="rec-note">The real thing first — that famous sunrise opening from <em>2001: A Space Odyssey</em>.</span>
+  </li>
+  <li>
+    <a href="https://youtu.be/6piDRKOwh88" target="_blank" rel="noopener">
+      Portsmouth Sinfonia — <em>Also sprach Zarathustra</em>
+    </a>
+    <span class="rec-note">Now the "world's worst orchestra" plays the same piece — real people genuinely trying their best on instruments they never learned.</span>
+  </li>
+</ul>
+
+<p class="homework">That's the week! You now have the tools to hear <em>more</em> — even in the strangest music. Go find something weird and listen for what's really going on.</p>
