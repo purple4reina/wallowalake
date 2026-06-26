@@ -37,7 +37,7 @@ important structures in classical music, and how composers kept reinventing it f
     <a href="https://www.youtube.com/watch?v=J3yzhkw_XJQ" target="_blank" rel="noopener">
       Beethoven — Symphony No. 9, Movement II (Scherzo)
     </a>
-    <span class="rec-note">Romantic: the Minuet's faster, wilder cousin — the Scherzo. Same ABA shape, still in three, but it flies. Beethoven wanted to study with Mozart, but Mozart died before he reached Vienna, so he studied with Haydn instead.</span>
+    <span class="rec-note">Romantic: the Minuet's faster, wilder cousin — the Scherzo. Same ABA shape, still in three, but it flies. Beethoven wanted to study with Mozart, but by the time he settled in Vienna, Mozart had died, so he studied with Haydn instead.</span>
   </li>
   <li>
     <a href="https://youtu.be/14h3asMRY4E" target="_blank" rel="noopener">

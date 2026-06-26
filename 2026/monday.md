@@ -42,19 +42,19 @@ When I say "music history," what do you picture? This week is really music *appr
     <a href="https://www.youtube.com/watch?v=ibSeyIbNGYA" target="_blank" rel="noopener">
       Dufay — <em>Missa L'Homme Armé</em>
     </a>
-    <span class="rec-note">Medieval / Renaissance: voices only, no beat to tap, lines float and overlap</span>
+    <span class="rec-note">Medieval / Renaissance: voices only, no beat to tap, lines float and overlap.</span>
   </li>
   <li>
     <a href="https://youtu.be/lMsncAgvIXo?t=133" target="_blank" rel="noopener">
       Telemann — Trumpet Concerto in D Major
     </a>
-    <span class="rec-note">Baroque: a beat you could march to, a bright solo trumpet showing off vs. the group — that's a concerto</span>
+    <span class="rec-note">Baroque: a beat you could march to, a bright solo trumpet showing off vs. the group — that's a concerto.</span>
   </li>
   <li>
     <a href="https://youtu.be/0vfU4cmdx-s?t=1373" target="_blank" rel="noopener">
       Mozart — Symphony No. 41 "Jupiter"
     </a>
-    <span class="rec-note">Classical: bigger ensemble, cleaner balanced tunes, clear phrases</span>
+    <span class="rec-note">Classical: bigger ensemble, cleaner balanced tunes, clear phrases.</span>
   </li>
   <li>
     <a href="https://www.youtube.com/watch?v=m3NiCOt_K0w" target="_blank" rel="noopener">
@@ -64,9 +64,9 @@ When I say "music history," what do you picture? This week is really music *appr
   </li>
   <li>
     <a href="https://youtu.be/3bqlt1EOlwg?t=674" target="_blank" rel="noopener">
-      Schönberg — <em>Fünf Orchesterstücke</em> Op. 16
+      Schoenberg — <em>Fünf Orchesterstücke</em> Op. 16
     </a>
-    <span class="rec-note">Modern: listen for what's <em>missing</em> — no home key, no hummable tune, no steady meter</span>
+    <span class="rec-note">Modern: listen for what's <em>missing</em> — no home key, no hummable tune, no steady meter.</span>
   </li>
 </ul>
 

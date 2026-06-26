@@ -62,4 +62,4 @@ to England to America.
   </li>
 </ul>
 
-<p class="homework">Come to Excerpt tonight in the lodge to hear some of these composers performed live.</p>
+<p class="homework">Come to Excerpts Night this evening in the lodge to hear some of these composers performed live.</p>
