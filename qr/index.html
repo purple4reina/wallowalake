@@ -1,0 +1,24 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Redirecting&hellip;</title>
+<meta name="robots" content="noindex">
+<style>
+  body{font-family:system-ui,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;text-align:center;color:#333}
+  a{color:#0645ad}
+</style>
+</head>
+<body>
+<p>Redirecting&hellip; <a id="link" href="#">tap here</a> if you are not redirected automatically.</p>
+<script>
+  // ---- Only line that needs to change once the real destination is known ----
+  var DESTINATION = "https://purple4reina.github.io/wallowalake/";
+  // -----------------------------------------------------------------------------
+  document.getElementById("link").href = DESTINATION;
+  location.replace(DESTINATION);
+</script>
+</body>
+</html>
